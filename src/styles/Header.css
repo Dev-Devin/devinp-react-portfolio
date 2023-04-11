@@ -1,0 +1,49 @@
+header {
+  background: var(--background);
+  padding: 15px 6% 15px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.header-name {
+  font-weight: 800;
+  font-size: 48px;
+  color: var(--title);
+  font-family: "Plus Jakarta Sans", sans-serif;
+  padding: 5px 1% 5px 6%;
+  margin: 0;
+  line-height: 1;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  padding: 5px 1% 5px 6%;
+}
+nav a {
+  text-decoration: none;
+  padding: 5px 10px;
+  color: var(--accent);
+  margin-right: 10px;
+  font-weight: bold;
+  font-size: 1.4rem;
+  color: var(--title);
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+nav a:last-child {
+  margin-right: 0;
+}
+
+nav .active,
+nav a:hover {
+  background-color: var(--accent);
+  color: white;
+  border-radius: 50%;
+  padding: 10px;
+}

@@ -1,0 +1,18 @@
+.card {
+    padding:10px;
+    min-height: 100%;
+    color: var(--darkerblue);
+}
+.btn-app {
+    margin: 4px;
+    border-radius: 30px;
+}
+.projectList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+.project {
+    padding: 10px;
+}
