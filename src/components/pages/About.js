@@ -1,6 +1,6 @@
 import React from "react";
 import "../../App.css";
-import avatar from "../../assets/avatar.jpeg";
+import me from "../../assets/me.png";
 
 export default function About() {
   return (
@@ -23,7 +23,7 @@ export default function About() {
               </p>
             </div>
             <div className="col-sm-6">
-              <img className="avatar" src={avatar} alt="avatar" />
+              <img className="avatar" src={me} alt="picture" />
             </div>
           </div>
           <p className="about"></p>

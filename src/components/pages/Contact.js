@@ -26,9 +26,9 @@ export default function Contact() {
             </a>
           </li>
           <li>
-            <b>ONLINE:</b>{" "}
+            <b>VIEW ME ONLINE:</b>{" "}
             <a
-              href="https://www.linkedin.com/in/devin-polichetti-8b1b1b1b4/"
+              href="https://www.linkedin.com/in/devin-p-bb831a220/"
               target="_blank"
             >
               LINKEDIN
