@@ -15,8 +15,8 @@ const styles = {
     padding: "15px",
   },
 };
-
-const Project = ({ name, image, technologies, deployed, github }) => {
+function ProjectCard({ project }) {
+  const { name, image, technologies, deployed, github } = project
   return (
     <div className="project col-sm-6" style={styles.project}>
       <div className="card" style={styles.card}>
@@ -49,6 +49,6 @@ const Project = ({ name, image, technologies, deployed, github }) => {
       </div>
     </div>
   );
-};
+}
 
-export default Project;
+export default ProjectCard;

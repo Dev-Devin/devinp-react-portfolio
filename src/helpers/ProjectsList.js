@@ -2,7 +2,7 @@ import deadInsideGames from "../assets/deadInsideGames.png";
 import marvelForDummies from "../assets/MFD.png";
 import passwordGen from "../assets/passwordGen.png";
 
-export const projects = [
+ const projectList = [
   {
     id: 0,
     name: "Dead Inside Games",
@@ -30,3 +30,5 @@ export const projects = [
     image: passwordGen,
   },
 ];
+
+export default projectList;
