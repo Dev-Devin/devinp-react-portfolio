@@ -39,7 +39,7 @@ function App() {
     <body style={styles.body}>
       <div className="App">
         <Header currentPage={currentPage} handlePageChange={handlePageChange} />
-        <main style={{ minHeight: "80vh" }}>{renderPage()}</main>
+        <main style={{ minHeight: "80vh", backgroundColor:"grey" }}>{renderPage()}</main>
         <Footer />
       </div>
     </body>

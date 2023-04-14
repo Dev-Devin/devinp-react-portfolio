@@ -3,22 +3,30 @@ import "../../App.css";
 
 export default function Resume() {
   return (
-    <section className="container">
+    <section className="container"style={{
+          paddingTop:"25px"
+          
+        }}>
       {/* <h2 className='title'>RESUME</h2> */}
 
       <div className="resume">
-        <h3 className="subtitle">Click Me</h3>
+        <h3 className="subtitle" >Click Me</h3>
         <a href="/Resume.pdf" download="Devin Polichetti Resume">
           <button id="downloadBtn" value="download" className="btn btn-success">
             Download Resume
           </button>
         </a>
       </div>
-      <div className="content" id="skills-section">
+      <div
+        className="content"
+        id="skills-section"
+        style={{
+          display: "flex",
+          justifyContent: "center", height: "50vh", alignItems: "center"
+        }}
+      >
         <div className="proficiencies">
-          <h4 className="resume-title">
-             Front & Back End Proficiencies
-          </h4>
+          <h4 className="resume-title">Front & Back End Proficiencies</h4>
           <div className="container skills">
             <div className="row">
               <div className="col-sm">
