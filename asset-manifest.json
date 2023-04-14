@@ -1,16 +1,22 @@
 {
   "files": {
-    "main.css": "/devinp-react-portfolio/static/css/main.073c9b0a.css",
-    "main.js": "/devinp-react-portfolio/static/js/main.8e47188d.js",
+    "main.css": "/devinp-react-portfolio/static/css/main.b79cc61d.css",
+    "main.js": "/devinp-react-portfolio/static/js/main.330a5d3b.js",
     "static/js/787.fbe6aa21.chunk.js": "/devinp-react-portfolio/static/js/787.fbe6aa21.chunk.js",
+    "static/media/TT.png": "/devinp-react-portfolio/static/media/TT.1fe09ff3302347bca0a3.png",
+    "static/media/me.png": "/devinp-react-portfolio/static/media/me.93a0b4e0fe62182da51b.png",
+    "static/media/MFD.png": "/devinp-react-portfolio/static/media/MFD.bc28765ea9d0e1219d75.png",
+    "static/media/work.png": "/devinp-react-portfolio/static/media/work.3dfcd2c4d72965a33361.png",
+    "static/media/passwordGen.png": "/devinp-react-portfolio/static/media/passwordGen.3d27d2bed5389b5c813b.png",
+    "static/media/DIG.png": "/devinp-react-portfolio/static/media/DIG.d2a7065bf5d67023292c.png",
     "static/media/logo.svg": "/devinp-react-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/devinp-react-portfolio/index.html",
-    "main.073c9b0a.css.map": "/devinp-react-portfolio/static/css/main.073c9b0a.css.map",
-    "main.8e47188d.js.map": "/devinp-react-portfolio/static/js/main.8e47188d.js.map",
+    "main.b79cc61d.css.map": "/devinp-react-portfolio/static/css/main.b79cc61d.css.map",
+    "main.330a5d3b.js.map": "/devinp-react-portfolio/static/js/main.330a5d3b.js.map",
     "787.fbe6aa21.chunk.js.map": "/devinp-react-portfolio/static/js/787.fbe6aa21.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.8e47188d.js"
+    "static/css/main.b79cc61d.css",
+    "static/js/main.330a5d3b.js"
   ]
 }
