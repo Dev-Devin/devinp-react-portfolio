@@ -15,4 +15,20 @@
 }
 .project {
     padding: 10px;
+    /* border: 1px solid black; */
+}
+
+.content {
+
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 10px; */
+    /* border: 1px solid black; */
 }

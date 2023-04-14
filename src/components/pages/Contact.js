@@ -1,6 +1,5 @@
 import React from "react";
 import "../../App.css";
-
 export default function Contact() {
   return (
     <section className="container">
@@ -41,5 +40,6 @@ export default function Contact() {
         </ul>
       </div>
     </section>
-  );
-}
+  )
+};
+  

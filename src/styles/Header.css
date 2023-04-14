@@ -1,5 +1,6 @@
 header {
   background: var(--background);
+  background: rgb(110, 110, 110);
   color: black;
   padding: 15px 6% 15px 0;
   display: flex;

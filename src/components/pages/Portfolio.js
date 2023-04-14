@@ -38,9 +38,9 @@ export default function Portfolio() {
     {
       id: 3,
       name: "Password Generator",
-      technologies: "Node.js, Express.js, Handlebars.js, MySQL, Sequelize",
+      technologies: "Express.js, Node.js, Handlebars.js, MySQL, Sequelize",
       github: "https://github.com/Dev-Devin/New-PASSWORD-GEN",
-      deployed: "https://dev-devin.github.io/New-PASSWORD-GEN/",
+      deployed: "https://dev-devin.github.io/New-PASSWORD-GEN/index.html",
       image: passwordGen,
     },
     {
