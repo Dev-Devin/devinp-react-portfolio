@@ -50,3 +50,9 @@ nav a:hover {
   padding: 10px;
 }
 
+.avatar {
+  border-radius: 500%;
+  width: 500px;
+  height: 500px;
+  /* margin-right: 10px; */
+}
