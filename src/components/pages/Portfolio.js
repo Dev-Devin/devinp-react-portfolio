@@ -3,6 +3,7 @@ import marvelForDummies from "../../assets/MFD.png";
 import passwordGen from "../../assets/passwordGen.png";
 import workschedule from "../../assets/work.png";
 import traveltracker from "../../assets/TT.png";
+import codingQuiz from "../../assets/CodeQ.png";
 import React from "react";
 import "../../App.css";
 import "../../styles/Portfolio.css";
@@ -50,6 +51,14 @@ export default function Portfolio() {
       github: "https://github.com/Dev-Devin/NEW-WORK-DAY-SCHEDULER",
       deployed: "https://github.com/Dev-Devin/NEW-WORK-DAY-SCHEDULER",
       image: workschedule,
+    },
+    {
+      id: 5,
+      name: "Coding Quiz",
+      technologies: "HTML, CSS, JavaScript",
+      github: "https://github.com/Dev-Devin/NEW-CODE-QUIZ",
+      deployed: "https://dev-devin.github.io/NEW-CODE-QUIZ/",
+      image: codingQuiz,
     },
   ];
   return (
