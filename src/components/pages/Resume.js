@@ -1,5 +1,6 @@
 import React from "react";
 import "../../App.css";
+import Resume "../../../public/Resume.pdf";
 
 export default function Resume() {
   return (
@@ -11,7 +12,7 @@ export default function Resume() {
 
       <div className="resume">
         <h3 className="subtitle" >Click Me</h3>
-        <a href="/Resume.pdf" download="Devin Polichetti Resume">
+        <a href="../../../public/Resume.pdf" download="Devin Polichetti Resume">
           <button id="downloadBtn" value="download" className="btn btn-success">
             Download Resume
           </button>

@@ -4,7 +4,7 @@ import passwordGen from "../../assets/passwordGen.png";
 import workschedule from "../../assets/work.png";
 import traveltracker from "../../assets/TT.png";
 import codingQuiz from "../../assets/CodeQ.png";
-// import Gameboxd from "../../assets/Gameboxd.png";
+import Gameboxd from "../../assets/Gbox.png";
 import React from "react";
 import "../../App.css";
 import "../../styles/Portfolio.css";
@@ -12,14 +12,14 @@ import ProjectCard from "../ProjectCard";
 
 export default function Portfolio() {
   const projectList = [
-    // {
-    //   id: 0,
-    //   name: "Gameboxd",
-    //   technologies: "MongoDB, Mongoose, GraphQL, Express.js, Node.js, React",
-    //   github: "https://github.com/Dev-Devin/gameboxd",
-    //   deployed: "https://gameboxed.herokuapp.com/",
-    //   image: Gameboxd,
-    // },
+    {
+      id: 0,
+      name: "Gameboxd",
+      technologies: "MongoDB, Mongoose, GraphQL, Express.js, Node.js, React",
+      github: "https://github.com/Dev-Devin/gameboxd",
+      deployed: "https://gameboxed.herokuapp.com/",
+      image: Gameboxd,
+    },
     {
       id: 1,
       name: "Dead Inside Games",
