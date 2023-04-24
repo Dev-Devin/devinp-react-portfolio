@@ -4,6 +4,7 @@ import passwordGen from "../../assets/passwordGen.png";
 import workschedule from "../../assets/work.png";
 import traveltracker from "../../assets/TT.png";
 import codingQuiz from "../../assets/CodeQ.png";
+// import Gameboxd from "../../assets/Gameboxd.png";
 import React from "react";
 import "../../App.css";
 import "../../styles/Portfolio.css";
@@ -11,8 +12,16 @@ import ProjectCard from "../ProjectCard";
 
 export default function Portfolio() {
   const projectList = [
+    // {
+    //   id: 0,
+    //   name: "Gameboxd",
+    //   technologies: "MongoDB, Mongoose, GraphQL, Express.js, Node.js, React",
+    //   github: "https://github.com/Dev-Devin/gameboxd",
+    //   deployed: "https://gameboxed.herokuapp.com/",
+    //   image: Gameboxd,
+    // },
     {
-      id: 0,
+      id: 1,
       name: "Dead Inside Games",
       technologies: "MongoDB, Mongoose, GraphQL, Express.js, Node.js, React",
       github: "https://github.com/Dev-Devin/Dead-inside-games-new",
@@ -20,7 +29,7 @@ export default function Portfolio() {
       image: deadInsideGames,
     },
     {
-      id: 1,
+      id: 2,
       name: "Travel Tracker",
       technologies: "HTML, CSS, JavaScript, Client & Server Side APIs",
       github: "https://github.com/Dev-Devin/travel-tracker-forked",
@@ -28,7 +37,7 @@ export default function Portfolio() {
       image: traveltracker,
     },
     {
-      id: 2,
+      id: 3,
       name: "Marvel for Dummies",
       technologies: "HTML, CSS, JavaScript, Client & Server Side APIs",
       github: "https://github.com/Dev-Devin/marvel-for-dummies",
@@ -37,7 +46,7 @@ export default function Portfolio() {
     },
 
     {
-      id: 3,
+      id: 4,
       name: "Password Generator",
       technologies: "Express.js, Node.js, Handlebars.js, MySQL, Sequelize",
       github: "https://github.com/Dev-Devin/New-PASSWORD-GEN",
@@ -45,7 +54,7 @@ export default function Portfolio() {
       image: passwordGen,
     },
     {
-      id: 4,
+      id: 5,
       name: "Work Day Scheduler",
       technologies: "HTML, CSS, JavaScript",
       github: "https://github.com/Dev-Devin/NEW-WORK-DAY-SCHEDULER",
@@ -53,7 +62,7 @@ export default function Portfolio() {
       image: workschedule,
     },
     {
-      id: 5,
+      id: 6,
       name: "Coding Quiz",
       technologies: "HTML, CSS, JavaScript",
       github: "https://github.com/Dev-Devin/NEW-CODE-QUIZ",
