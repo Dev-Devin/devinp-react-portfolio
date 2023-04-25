@@ -1,8 +1,13 @@
 import React from "react";
 import "../../App.css";
+import { useForm, ValidationError } from "@formspree/react";
 export default function Contact() {
+  const [state, handleSubmit] = useForm("meqwvnjq");
+  if (state.succeeded) {
+    return <p>Thanks for joining!</p>;
+  }
   return (
-    <section className="container">
+    <section className="container contact">
       {/* <h2 className="title">CONTACT</h2> */}
       <h3 className="subtitle">Welcome!</h3>
       {/* <form className='form'>
@@ -39,7 +44,26 @@ export default function Contact() {
           </li>
         </ul>
       </div>
+      <div>
+        <form onSubmit={handleSubmit}>
+          <label htmlFor="email">Contact Me</label>
+          <input placeholder="Email.." id="email" type="email" name="email" />
+          
+
+          <ValidationError prefix="Email" field="email" errors={state.errors} />
+          <textarea  placeholder="Message..." id="message" name="message" />
+          
+          <ValidationError
+            prefix="Message"
+            field="message"
+            errors={state.errors}
+          />
+          <button type="submit" disabled={state.submitting}>
+            Submit
+          </button>
+        </form>
+      </div>
     </section>
-  )
+  );
 };
   

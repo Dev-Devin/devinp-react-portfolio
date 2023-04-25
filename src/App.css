@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+
+.footer {
+  background: rgb(91, 91, 91);
+}
+
+.social {
+ padding: 20px 0 20px 0;
+}
+
+.social a{
+  margin: 0 7px 0 7px;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.contact form input, .contact form textarea {
+   margin: 7px 0;
+   border-radius: 2px;
+   border: none;
+   resize: none;
+}
+
+.contact form textarea {
+  height: 100px;
+}
+.contact form button {
+  width: 20%;
+  border: none;
+  border-radius: 2px;
+  margin: 5px auto;
+}
+
+
