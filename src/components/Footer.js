@@ -11,13 +11,13 @@ function Footer() {
           <Github size={35} color={"black"} />
         </a>
         <a
-          href="https://www.linkedin.com/in/devin-polichetti-8b1b1b1b3/"
+          href="https://www.linkedin.com/in/devin-p-bb831a220/"
           target="_blank"
         >
-          <Linkedin size={35} color={"black"}/>
+          <Linkedin size={35} color={"black"} />
         </a>
         <a href="https://medium.com/@devinpolichetti" target="_blank">
-          <Medium size={35} color={"black"}/>
+          <Medium size={35} color={"black"} />
         </a>
       </div>
       <p className="copyright">Devin Polichetti&copy; 2023</p>

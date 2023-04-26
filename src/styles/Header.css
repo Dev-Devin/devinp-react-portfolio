@@ -45,7 +45,7 @@ nav a:last-child {
 nav .active,
 nav a:hover {
   background-color: var(--accent);
-  color: rgb(193, 10, 10);
+  color: rgb(193, 10, 10) !important;
   border-radius: 50%;
   padding: 10px;
 }

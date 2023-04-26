@@ -18,10 +18,10 @@ const styles = {
 function ProjectCard({ project }) {
   const { name, image, technologies, deployed, github } = project
   return (
-    <div className="project col-sm-6" style={styles.project}>
-      <div className="card" style={styles.card}>
+    <div className="project col-sm-6 " style={styles.project}>
+      <div className="card style-card" style={styles.card}>
         <img
-          className="card-img-top img-responsive"
+          className="card-img-top img-responsive "
           src={image}
           alt="deployed app"
           style={styles.img}

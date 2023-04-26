@@ -42,10 +42,10 @@
 }
 
 .social {
- padding: 20px 0 20px 0;
+  padding: 20px 0 20px 0;
 }
 
-.social a{
+.social a {
   margin: 0 7px 0 7px;
 }
 
@@ -56,11 +56,12 @@
   margin: 0 auto;
 }
 
-.contact form input, .contact form textarea {
-   margin: 7px 0;
-   border-radius: 2px;
-   border: none;
-   resize: none;
+.contact form input,
+.contact form textarea {
+  margin: 7px 0;
+  border-radius: 2px;
+  border: none;
+  resize: none;
 }
 
 .contact form textarea {
@@ -73,4 +74,19 @@
   margin: 5px auto;
 }
 
+.skillsContainer {
+  border: rgb(15, 14, 14) 1px solid;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0px 0px 10px 10px rgb(15, 14, 14);
+}
 
+.pdf:hover {
+  background-color: rgb(193, 10, 10) !important;
+  border: red 1px solid;
+  border-radius: 10px;
+}
+
+.style-card {
+  box-shadow: 0px 0px 10px 10px rgb(15, 14, 14) !important;
+}
