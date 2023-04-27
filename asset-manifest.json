@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/devinp-react-portfolio/static/css/main.f7604e4a.css",
-    "main.js": "/devinp-react-portfolio/static/js/main.e088dce3.js",
+    "main.css": "/devinp-react-portfolio/static/css/main.c9206868.css",
+    "main.js": "/devinp-react-portfolio/static/js/main.d0ae60ee.js",
     "static/js/787.fbe6aa21.chunk.js": "/devinp-react-portfolio/static/js/787.fbe6aa21.chunk.js",
     "static/media/Gbox.png": "/devinp-react-portfolio/static/media/Gbox.ad7e9ca871a20b8a265b.png",
     "static/media/TT.png": "/devinp-react-portfolio/static/media/TT.1fe09ff3302347bca0a3.png",
@@ -14,12 +14,12 @@
     "static/media/Resume.pdf": "/devinp-react-portfolio/static/media/Resume.5f6e25ffa17c1d026ad2.pdf",
     "static/media/logo.svg": "/devinp-react-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/devinp-react-portfolio/index.html",
-    "main.f7604e4a.css.map": "/devinp-react-portfolio/static/css/main.f7604e4a.css.map",
-    "main.e088dce3.js.map": "/devinp-react-portfolio/static/js/main.e088dce3.js.map",
+    "main.c9206868.css.map": "/devinp-react-portfolio/static/css/main.c9206868.css.map",
+    "main.d0ae60ee.js.map": "/devinp-react-portfolio/static/js/main.d0ae60ee.js.map",
     "787.fbe6aa21.chunk.js.map": "/devinp-react-portfolio/static/js/787.fbe6aa21.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f7604e4a.css",
-    "static/js/main.e088dce3.js"
+    "static/css/main.c9206868.css",
+    "static/js/main.d0ae60ee.js"
   ]
 }
