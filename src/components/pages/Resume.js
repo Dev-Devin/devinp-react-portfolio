@@ -13,11 +13,15 @@ export default function Resume() {
     >
       {/* <h2 className='title'>RESUME</h2> */}
 
-      <div className="resume">
-        
+      <div className="resume"style={{margin: "3em"
+      }}>
         <a href={Workresume} download="Devin Polichetti Resume">
-          <img className="pdf" src={iconPdf} alt="pdf" style={{ width: "120px" }} /> 
-
+          <img
+            className="pdf"
+            src={iconPdf}
+            alt="pdf"
+            style={{ width: "120px" }}
+          />
         </a>
       </div>
       <div
@@ -37,7 +41,10 @@ export default function Resume() {
               <div className="row">
                 <div className="col-sm">
                   <div className="skills-column">
-                    <ul className="skills-list">
+                    <ul
+                      className="skills-list"
+                      style={{ listStyleType: "none" }}
+                    >
                       <li>HTML5/CSS3</li>
                       <li>JavaScript</li>
                       <li>JSON</li>
@@ -53,7 +60,10 @@ export default function Resume() {
                 </div>
                 <div className="col-sm">
                   <div className="skills-column">
-                    <ul className="skills-list">
+                    <ul
+                      className="skills-list"
+                      style={{ listStyleType: "none" }}
+                    >
                       <li>Express.js</li>
                       <li>GraphQL</li>
                       <li>Apollo Client/Server</li>
@@ -69,7 +79,10 @@ export default function Resume() {
                 </div>
                 <div className="col-sm">
                   <div className="skills-column">
-                    <ul className="skills-list">
+                    <ul
+                      className="skills-list"
+                      style={{ listStyleType: "none" }}
+                    >
                       <li>Node.js</li>
                       <li>React</li>
                       <li>PWA</li>
@@ -90,7 +103,10 @@ export default function Resume() {
               <div className="row">
                 <div className="col-sm">
                   <div className="skills-column">
-                    <ul className="skills-list">
+                    <ul
+                      className="skills-list"
+                      style={{ listStyleType: "none" }}
+                    >
                       <li>VSCODE</li>
                       <li>Figma</li>
                     </ul>
@@ -98,7 +114,10 @@ export default function Resume() {
                 </div>
                 <div className="col-sm">
                   <div className="skills-column">
-                    <ul className="skills-list">
+                    <ul
+                      className="skills-list"
+                      style={{ listStyleType: "none" }}
+                    >
                       <li>Excel</li>
                       <li>Powerpoint</li>
                     </ul>
@@ -106,7 +125,10 @@ export default function Resume() {
                 </div>
                 <div className="col-sm">
                   <div className="skills-column">
-                    <ul className="skills-list">
+                    <ul
+                      className="skills-list"
+                      style={{ listStyleType: "none" }}
+                    >
                       <li>Adobe</li>
                       <li>Prezi</li>
                     </ul>

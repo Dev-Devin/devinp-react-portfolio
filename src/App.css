@@ -62,23 +62,31 @@
   border-radius: 2px;
   border: none;
   resize: none;
+  background-color: black;
+  color: white;
 }
 
 .contact form textarea {
   height: 100px;
 }
 .contact form button {
-  width: 20%;
+  width: 10em;
   border: none;
   border-radius: 2px;
   margin: 5px auto;
+  background-color: black;
+  color: white;
+  
 }
 
 .skillsContainer {
+  height: 75vh;
+  overflow: scroll;
   border: rgb(15, 14, 14) 1px solid;
   border-radius: 10px;
   padding: 10px;
   box-shadow: 0px 0px 10px 10px rgb(15, 14, 14);
+  margin-bottom: 3em;
 }
 
 .pdf:hover {
@@ -90,3 +98,13 @@
 .style-card {
   box-shadow: 0px 0px 10px 10px rgb(15, 14, 14) !important;
 }
+#main-container{
+  background-color: "393f1e";
+    color: "FF1D25"
+}
+/* .main-container section{
+ min-height: "100vh";
+ background-color: "grey" 
+} */
+ 
+ 

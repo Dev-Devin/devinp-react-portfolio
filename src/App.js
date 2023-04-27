@@ -9,10 +9,12 @@ import Contact from "./components/pages/Contact";
 import Resume from "./components/pages/Resume";
 
 const styles = {
-  body: {
+  main: {
     backgroundColor: "393f1e",
     color: "FF1D25",
   },
+  section: { minHeight: "100vh", backgroundColor: "grey" },
+ 
 };
 
 function App() {
@@ -36,13 +38,15 @@ function App() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <body style={styles.body}>
+    <main id="main-container" >
       <div className="App">
         <Header currentPage={currentPage} handlePageChange={handlePageChange} />
-        <main style={{ minHeight: "80vh", backgroundColor:"grey" }}>{renderPage()}</main>
+        <section style={styles.section}>
+          {renderPage()}
+        </section>
         <Footer />
       </div>
-    </body>
+    </main>
   );
 }
 
