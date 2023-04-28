@@ -5,6 +5,7 @@ import workschedule from "../../assets/work.png";
 import traveltracker from "../../assets/TT.png";
 import codingQuiz from "../../assets/CodeQ.png";
 import Gameboxd from "../../assets/Gbox.png";
+import WeatherDash from "../../assets/Weather.png";
 import React from "react";
 import "../../App.css";
 import "../../styles/Portfolio.css";
@@ -48,13 +49,21 @@ export default function Portfolio() {
     {
       id: 4,
       name: "Password Generator",
-      technologies: "Express.js, Node.js, Handlebars.js, MySQL, Sequelize",
+      technologies: "HTML, CSS, JavaScript",
       github: "https://github.com/Dev-Devin/New-PASSWORD-GEN",
       deployed: "https://dev-devin.github.io/New-PASSWORD-GEN/index.html",
       image: passwordGen,
     },
     {
       id: 5,
+      name: "Weather Dashboard",
+      technologies: "HTML, CSS, JavaScript, APIs",
+      github: "https://github.com/Dev-Devin/NEW-WEATHER-DASH",
+      deployed: "https://dev-devin.github.io/NEW-WEATHER-DASH/",
+      image: WeatherDash,
+    },
+    {
+      id: 6,
       name: "Work Day Scheduler",
       technologies: "HTML, CSS, JavaScript",
       github: "https://github.com/Dev-Devin/NEW-WORK-DAY-SCHEDULER",
@@ -62,7 +71,7 @@ export default function Portfolio() {
       image: workschedule,
     },
     {
-      id: 6,
+      id: 7,
       name: "Coding Quiz",
       technologies: "HTML, CSS, JavaScript",
       github: "https://github.com/Dev-Devin/NEW-CODE-QUIZ",
