@@ -82,7 +82,7 @@ export default function Portfolio() {
   return (
     <div className="portfolio container">
       {/* <h2 className='title'>MY PROJECTS</h2> */}
-      <h3 className="subtitle">Projects I have developed</h3>
+      <h2 className="subtitle">Projects</h2>
       <div className="content project">
         {projectList.map((project, index) => {
           return (

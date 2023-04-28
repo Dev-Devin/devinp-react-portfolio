@@ -16,7 +16,7 @@ const styles = {
   },
 };
 function ProjectCard({ project }) {
-  const { name, image, technologies, deployed, github } = project
+  const { name, image, technologies, deployed, github } = project;
   return (
     <div className="project col-sm-6 " style={styles.project}>
       <div className="card style-card" style={styles.card}>
@@ -26,13 +26,14 @@ function ProjectCard({ project }) {
           alt="deployed app"
           style={styles.img}
         />
-        <div className="card-body">
+        <div className="card-body" >
           <h5 className="card-title">{name}</h5>
           <p className="card-text">🛠️ {technologies}</p>
-          <div className="card-links">
+          <div className="card-links" >
             <a
               href={deployed}
               target="_blank"
+              rel="noreferrer"
               className="btn btn-success btn-app"
             >
               Deployed Application
@@ -40,6 +41,7 @@ function ProjectCard({ project }) {
             <a
               href={github}
               target="_blank"
+              rel="noreferrer"
               className="btn btn-success btn-app"
             >
               GitHub Repository
