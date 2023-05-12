@@ -48,22 +48,20 @@ export default function Contact() {
         <form onSubmit={handleSubmit}>
           <label htmlFor="email">Contact Me</label>
           <input placeholder="Email.." id="email" type="email" name="email" />
-          
 
           <ValidationError prefix="Email" field="email" errors={state.errors} />
-          <textarea  placeholder="Message..." id="message" name="message" />
-          
+          <textarea placeholder="Message..." id="message" name="message" />
+
           <ValidationError
             prefix="Message"
             field="message"
             errors={state.errors}
           />
-          <button type="submit" disabled={state.submitting}>
+          <button id="button-submit" type="submit" disabled={state.submitting}>
             Submit
           </button>
         </form>
       </div>
     </section>
   );
-};
-  
+}

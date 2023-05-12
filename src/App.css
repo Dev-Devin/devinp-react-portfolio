@@ -122,3 +122,7 @@
   margin-bottom: 1em;
   text-shadow: 0px 0px 10px 10px rgb(15, 14, 14);
 }
+
+#button-submit:hover {
+background-color: red;
+}
